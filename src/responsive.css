@@ -1,0 +1,55 @@
+@media (max-width: 425px) {
+    
+    html {
+        background: url(image/bg-mobile.svg)center center no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .header img {
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+    }
+    
+    
+    .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .hero .image {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: 40%;
+    }
+
+    .hero .informacao {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero .informacao .title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .hero .informacao .text {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .hero .informacao .register {
+        padding-top: 20px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+}
